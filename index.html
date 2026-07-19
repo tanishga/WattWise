@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset="UTF - 8 ">
+    <meta name="viewport" content="width=device - width, initial - scale-1.0"/>
+    <title>WattWise</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>WattWise</h1>
+
+        <ul>
+            <li>Home</li>
+            <li>Estimator</li>
+            <li>Tips</li>
+            <li>Aout</li>
+        </ul>
+        <p>Let's reduce your electricity bill!</p>
+    </header>
+
+<main>
+    <!--Hero Section-->
+    <section id="hero">
+        <h2>Understand your electricity.
+            <br>
+            Reduce your bill.</h2>
+        <p class="description">
+            Track appliance-wise electricity usage, estimate montly costs, and discover smart ways to reduce your electricity bill  
+        </p>
+        
+        <button id="estimate-btn">Start Estimating</button>
+    </section>
+
+    <!--Dashbord-->
+    <section id="dashboard">
+        <h2>Dashboard</h2>
+        <div class="card">
+            <h3>Monthly Units</h3>
+            <p id="units">0 kWh</p>
+        </div>
+
+        <div class="card">
+            <h3>Estimated Bill</h3>
+            <p id="bill">Rs.0</p>
+        </div>
+
+        <div class="card">
+            <h3>Possible Savings</h3>
+            <p>Rs.0</p>
+        </div>
+    </section>
+
+    <!--Appliance Form-->
+    <section id="Appliance">
+        <h2>Add Appliance</h2>
+        <label>Appliance Name</label>
+        <input type="text" placeholder="Ex: Air Conditioner">
+
+        <label>Power (Watts)</label>
+        <input type="number" placeholder="1500">
+
+        <label> Hours Used Per Day</label>
+        <input type="number" placeholder="8">
+
+        <label>Quantity</label>
+        <input type="number" placeholder="1">
+
+        <button>Add Appliance</button>
+    </section>
+
+    <!--Results-->
+    <section id="results">
+        <h2>Analysis</h2>
+        <p>Your Appliance uasge will appear here</p>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
